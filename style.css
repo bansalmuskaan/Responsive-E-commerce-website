@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root {
+
+    --main-text-color: #2874f0;
+    
+    }
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.search-top{
+    display: flex;
+    align-items: center;
+}
+
+.search-top input{
+    width: 439px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 56px;
+}
+
+header{
+    
+    background: var(--main-text-color);
+   
+}
+
+nav{
+    display: flex;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.my-4{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.my-3 a{
+    text-decoration: none;
+    list-style: none;
+    padding: 0 23px;
+    font-size: small;
+    color: var(--main-text-color);
+}
+
+.my-3 a:hover{
+    font-weight: bolder;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul li a:hover{
+    
+    font-weight: bolder;
+}
+
+.search{
+    text-align: center;
+    
+    margin-bottom: 50px;
+}
+
+.search input{
+    background-color: rgba(158, 156, 139, 0.336);
+    width: 262px;
+    height: 27px;
+    border-radius: 5px;
+    
+   
+    
+}
+
+.search button{
+   
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.container{
+    min-height: 80vh;
+    background-color: rgba(158, 156, 139, 0.336);
+}
+
+
+
+.mySlides{
+    width: 80vw;
+    margin: 12px auto;
+}
+
+.sliders{
+    margin: 0 50px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards{
+    display: flex;
+   
+    align-items: center;
+    overflow: scroll;
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+
+
+.card-item{
+
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-text-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
